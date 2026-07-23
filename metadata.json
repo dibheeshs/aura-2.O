@@ -1,0 +1,6 @@
+{
+  "name": "AURA - Digital Atelier",
+  "description": "Exquisite luxury e-commerce platform for curated digital products, UI kits, 3D assets, typography, art prints, software tools, and creative downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

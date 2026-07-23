@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #050505;
+    color: #F5F5F7;
+  }
+  
+  h1, h2, h3, .font-display {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.03em;
+  }
+
+  .font-serif-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-mono-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Sleek Interface Theme Utilities */
+.bg-sleek-black {
+  background-color: #050505;
+}
+
+.bg-sleek-card {
+  background-color: #111111;
+}
+
+.bg-sleek-surface {
+  background-color: #161616;
+}
+
+.border-sleek {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.border-sleek-light {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.hover-border-sleek:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.text-sleek-muted {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-sleek-subtle {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.shadow-sleek-glow {
+  box-shadow: 0 0 40px -10px rgba(255, 255, 255, 0.08);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+

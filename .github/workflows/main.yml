@@ -22,8 +22,8 @@ jobs:
 
             cd /home/${{ secrets.EC2_USERNAME }}
 
-            if [ ! -d "ec2-demoshop" ]; then
-              git clone https://github.com/dibheeshs/aura.git ec2-demoshop
+            if [ ! -d "aura" ]; then
+              git clone https://github.com/dibheeshs/aura.git
             fi
 
             cd ec2-demoshop

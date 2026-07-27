@@ -19,7 +19,6 @@ jobs:
           port: 22
           script: |
             set -e
-
             cd /home/${{ secrets.EC2_USERNAME }}
 
             if [ ! -d "aura" ]; then
